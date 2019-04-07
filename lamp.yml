@@ -1,4 +1,7 @@
 ---
+# Demo coding file for git
+#
+
 - hosts: localhost
   connection: ssh
   tasks:
