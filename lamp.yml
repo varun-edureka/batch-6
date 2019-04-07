@@ -2,7 +2,7 @@
 # Demo coding file for git
 #
 
-- hosts: localhost
+- hosts: 127.0.0.1
   connection: ssh
   tasks:
   - name: Install httpd 
