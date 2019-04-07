@@ -1,0 +1,62 @@
+---
+- hosts: localhost
+  connection: ssh
+  tasks:
+  - name: Install httpd 
+    yum: 
+        name: httpd
+        state: present
+
+  - name: Start httpd
+    service:
+        name: httpd
+        state: restarted
+
+  - name: enable httpd
+    service:
+        name: httpd
+        state: enabled
+
+  - name: Install htop 
+    yum:
+        name: htop
+        state: present
+
+
+  - name: Install elinks
+    yum:
+        name: elinks
+        state: present
+
+
+  - name: enable httpd
+    service:
+        name: httpd
+        state: enabled
+
+  - name: Install htop
+    yum:
+        name: htop
+        state: present
+
+
+  - name: Install elinks
+    yum:
+        name: elinks
+        state: present
+
+  - name: enable httpd
+    service:
+        name: httpd
+        state: enabled
+
+  - name: Install htop
+    yum:
+        name: htop
+        state: present
+
+
+  - name: Install elinks
+    yum:
+        name: elinks
+        state: present
