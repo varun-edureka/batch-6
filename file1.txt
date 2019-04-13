@@ -1,4 +1,6 @@
  adding this file in Dev Branch edureka
 
+added this line in Dev branch
+>>>>>>> dev
 Line no.2 
 Coming from UAT 
