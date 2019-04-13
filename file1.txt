@@ -1,5 +1,4 @@
  adding this file in Dev Branch
 
 Line no.2 
-Coming from Dev
 Coming from UAT 
